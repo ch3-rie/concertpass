@@ -212,7 +212,3 @@ Tests use an in-memory SQLite database. They cover authentication, profile updat
 | Stale config after a code change | `php artisan optimize:clear` |
 | `401` on `/api/admin/*` | Send `Authorization: Bearer {token}` from a fresh login |
 | `403` on `/api/admin/*` | The token belongs to a user whose `role` is not `admin` |
-
-## License
-
-This project is released under the [MIT license](https://opensource.org/licenses/MIT).
